@@ -79,7 +79,7 @@ Start-Sleep -Seconds 1
 # BUREAU 1 - SUPERVISION
 # ============================================================
 
-Start-Process "msedge.exe" '--new-window "https://supervision.icare-lims.local/cmk/check_mk/login.py?_origtarget=/cmk/check_mk/dashboard.py?name=dash_latence_RDS&_username=supervision&_password=A_METTRE&_login=1"'
+Start-Process "msedge.exe" '--new-window "https://checkmk/cmk/check_mk/login.py?_origtarget=/cmk/check_mk/dashboard.py?name=dash&_username=user&_password=A_METTRE&_login=1"'
 
 Start-Sleep -Seconds 4
 
@@ -103,7 +103,7 @@ Start-Sleep -Seconds 2
 # BUREAU 2 - DEUXIÈME PAGE
 # ============================================================
 
-Start-Process "msedge.exe" '--new-window "https://supervision.icare-lims.local/cmk/check_mk/login.py?_origtarget=/cmk/check_mk/dashboard.py&_username=supervision&_password=A_METTRE&_login=1"'
+Start-Process "msedge.exe" '--new-window "https://checkmk/cmk/check_mk/login.py?_origtarget=/cmk/check_mk/dashboard.py?name=dash&_username=user&_password=A_METTRE&_login=1"'
 
 Start-Sleep -Seconds 4
 
